@@ -8,7 +8,7 @@ FlashCards ist eine Lernkarten-App für iPhone, iPad und Mac. Sie plant deine Wi
 
 ## Kontakt
 
-Fragen, Fehler oder Wünsche: marius.middrup@gmail.com
+Fragen, Fehler oder Wünsche: marius.middrup@gmail.com  
 Bitte nenne Gerät, Systemversion und App-Version (Einstellungen bzw. „Über FlashCards“).
 
 ## Häufige Fragen

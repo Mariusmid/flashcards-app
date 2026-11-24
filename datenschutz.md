@@ -10,8 +10,8 @@ FlashCards ist eine Lernkarten-App für iPhone, iPad und Mac. Diese Erklärung b
 
 ## Verantwortlicher
 
-Marius Jonas Middrup
-Alter Münsterweg [HAUSNUMMER], 59227 Ahlen, Deutschland
+Marius Jonas Middrup  
+Alter Münsterweg [HAUSNUMMER], 59227 Ahlen, Deutschland  
 E-Mail: marius.middrup@gmail.com
 
 ## Keine Datenerhebung durch den Entwickler
