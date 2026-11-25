@@ -7,7 +7,7 @@ description: Impressum und Anbieterkennzeichnung für FlashCards.
 
 ## Angaben gemäß § 5 DDG
 
-Marius Jonas Middrup  
+Marius Middrup  
 Alter Münsterweg 80  
 59227 Ahlen  
 Deutschland
@@ -18,7 +18,7 @@ E-Mail: [marius.middrup@gmail.com](mailto:marius.middrup@gmail.com)
 
 ## Verantwortlich für den Inhalt
 
-Marius Jonas Middrup, Anschrift wie oben.
+Marius Middrup, Anschrift wie oben.
 
 ## Haftung für Inhalte und Links
 
