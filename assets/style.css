@@ -121,10 +121,16 @@ img { max-width: 100%; height: auto; }
 .checklist { list-style: none; padding: 0; margin: 0; }
 .checklist li { padding: 8px 0 8px 30px; position: relative; border-bottom: 1px solid var(--line); }
 .checklist li::before { content: "✓"; position: absolute; left: 4px; color: var(--accent); font-weight: 700; }
-.shots { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; }
-.shots img { border-radius: 22px; box-shadow: var(--shadow); max-height: 560px; width: auto; }
+.shots-section { padding-top: 8px; }
+.shots { display: grid; grid-template-columns: repeat(3, minmax(0, 300px)); gap: 28px; justify-content: center; }
+.shots figure { margin: 0; text-align: center; }
+.shots img { display: block; width: 100%; height: auto; border-radius: 36px; border: 1px solid var(--line); box-shadow: var(--shadow); }
+.shots figcaption { margin-top: 14px; font-size: 15px; color: var(--muted); }
+.mac-shot { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); box-shadow: var(--shadow); }
 .cta { text-align: center; }
 @media (max-width: 720px) {
+  .shots { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 16px; justify-content: flex-start; margin: 0 -20px; padding: 4px 20px 16px; }
+  .shots figure { flex: 0 0 72%; scroll-snap-align: center; }
   .split { grid-template-columns: 1fr; gap: 24px; }
   .site-nav { gap: 14px; }
   .hero { padding-top: 48px; }
