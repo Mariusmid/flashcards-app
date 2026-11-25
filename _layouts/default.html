@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a7cff">
+  <link rel="icon" href="{{ '/assets/icon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/icon.svg' | relative_url }}" alt="" width="32" height="32">
+        <span>FlashCards</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptmenü">
+        <a href="{{ '/#funktionen' | relative_url }}">Funktionen</a>
+        <a href="{{ '/faq.html' | relative_url }}"{% if page.url == '/faq.html' %} aria-current="page"{% endif %}>FAQ</a>
+        <a href="{{ '/support.html' | relative_url }}"{% if page.url == '/support.html' %} aria-current="page"{% endif %}>Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main{% unless page.body_class == 'home' %} class="wrap prose"{% endunless %}>
+{{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© {{ 'now' | date: '%Y' }} Marius Middrup · FlashCards für iPhone, iPad und Mac</p>
+      <nav aria-label="Rechtliches und Hilfe">
+        <a href="{{ '/faq.html' | relative_url }}">FAQ</a>
+        <a href="{{ '/support.html' | relative_url }}">Support</a>
+        <a href="{{ '/datenschutz.html' | relative_url }}">Datenschutz</a>
+        <a href="{{ '/impressum.html' | relative_url }}">Impressum</a>
+        <a href="{{ '/nutzungsbedingungen.html' | relative_url }}">Nutzungsbedingungen</a>
+        <a href="{{ '/presse.html' | relative_url }}">Presse</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
