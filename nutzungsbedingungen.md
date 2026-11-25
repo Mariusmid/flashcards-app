@@ -12,7 +12,7 @@ description: Nutzungsbedingungen für die App FlashCards.
 Für die Nutzung von FlashCards gilt die Standard-Endbenutzer-Lizenzvereinbarung von Apple für lizenzierte Apps (Licensed Application End User License Agreement, „Standard-EULA“):
 [apple.com/legal/internet-services/itunes/dev/stdeula](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
-Anbieter der App ist Marius Jonas Middrup (siehe [Impressum](impressum.html)).
+Anbieter der App ist Marius Middrup (siehe [Impressum](impressum.html)).
 
 ## Ergänzende Hinweise
 
