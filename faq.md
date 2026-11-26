@@ -10,6 +10,14 @@ Hier findest du Antworten rund um FlashCards. Fehlt etwas? Dann schreib mir übe
 ## Erste Schritte
 
 <details markdown="1">
+<summary>Wie bekomme ich FlashCards?</summary>
+
+FlashCards ist gerade als öffentliche Beta verfügbar. Installiere auf deinem iPhone, iPad oder Mac die App [TestFlight](https://apps.apple.com/de/app/testflight/id899247664) von Apple und öffne dann diesen Link: [https://testflight.apple.com/join/Hp9zpBBu](https://testflight.apple.com/join/Hp9zpBBu). Der Start im App Store folgt.
+
+Feedback zur Beta kannst du direkt in TestFlight senden oder mir per [E-Mail](support.html) schicken.
+</details>
+
+<details markdown="1">
 <summary>Wie fange ich an?</summary>
 
 Lege einen Stapel an, darin ein Kapitel, und füge Karten hinzu. Oder importiere vorhandene Karten über „Importieren …“. Mit „Üben“ lernst du alle Karten, die heute anstehen.

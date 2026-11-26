@@ -20,7 +20,7 @@ Hier findest du Informationen und Material für Berichte über FlashCards. Für 
 | Plattformen | iPhone, iPad, Mac |
 | Voraussetzungen | iOS, iPadOS bzw. macOS 26.5 oder neuer; KI-Generierung mit Apple Intelligence |
 | Sprache | Deutsch |
-| Verfügbarkeit | demnächst im App Store |
+| Verfügbarkeit | öffentliche Beta über [TestFlight](https://testflight.apple.com/join/Hp9zpBBu), App Store folgt |
 | Datenschutz | keine Datenerhebung, kein Konto, kein Tracking |
 
 ## Wichtigste Funktionen
